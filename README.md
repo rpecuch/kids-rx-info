@@ -4,13 +4,22 @@
 
 ## Description
 
-The purpose of this application is to provide an electronic system to keep track of patient records in a healthcare environment. Like other electronic health record (EHR) systems, features include appointment scheduling, creating patient charts, writing medical record notes, logging vital signs, and logging vaccination records. What makes Kids-RX different is that it is specifically designed for use in pediatrics and includes features that were implemented with children in mind. This application currently only has a provider login, as it was built in one week, but future development will include implementing a patient login portal. This patient view will include games that the child can play while in a waiting room. Additional functionalities that we would like to add include increasing the number of different calendar views, implementing electronic prescriptions, and adding more editing abilities. We also plan on making the patient charts much more detailed.
+The purpose of this application is to provide an electronic system to keep track of patient records in a healthcare environment.
+
+### Providers
+
+Like other electronic health record (EHR) systems, features include appointment scheduling, creating patient charts, writing medical record notes, logging vital signs, and logging vaccination records. What makes Kids-RX different is that it is specifically designed for use in pediatrics and includes features that were implemented with children in mind. Additional functionalities that we would like to add in the near future include increasing the number of different calendar views, implementing electronic prescriptions, and adding more editing abilities. We also plan on making the patient charts much more detailed.
+
+### Future Development
+
+This application was built in two weeks, with our development team spending one week on the provider login and one week on the patient login. Because each login was built to meet the requirements of a different class project, different technologies were used in each. In the coming weeks a comprehensive application will be set up that combines both the provider and patient login.
 
 ## Table of Contents
 
   - [Installation](#installation)
   - [Usage](#usage)
     - [Providers](#providers)
+    - [Patients](#patients)
   - [Collaborators](#collaborators)
   - [Credits](#credits)
   - [License](#license)
@@ -67,6 +76,8 @@ The resources page contains information about common childhood illness, as well 
 The user may view their account profile at any time by visiting the navigation bar.
 
 The user may log out at any time by visiting the navigation bar.
+
+### Patients
 
 ## Collaborators
 
