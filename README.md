@@ -95,17 +95,65 @@ The user may log out at any time by visiting the navigation bar.
 
 ### Patients
 
+To access this application, visit the following URL: [http://my-kids-rx.herokuapp.com/](http://my-kids-rx.herokuapp.com/). Browse the homepage for business information, or select one of the options in the navigation bar at the top of the page.
+
+Select "Patient Login" to login as a patient, or the user may create a new account.
+
+![login page](./client/src/assets/images/readme/login.png)
+
+![create account page](./client/src/assets/images/readme/create.png)
+
+Once the user is logged in they may choose from the following options: view profile, view medical information, view appointments, view imaging results, view lab results, play games, view resources, and send/view messages.
+
+The profile page will show account information and basic medical information, along with the options to change password and delete account. In order to carry out either of these options, the user must enter their current password correctly.
+
+![profile page](./client/src/assets/images/readme/profile.png)
+
+The appointments page shows upcoming appointments as well as reports from previous appointments.
+
+![appointments page](./client/src/assets/images/readme/appt.png)
+
+The imaging results page shows imaging results that are on file with their physician.
+
+![imaging results page](./client/src/assets/images/readme/imaging.png)
+
+The lab results page shows lab results that are on file with their physician.
+
+![lab results page](./client/src/assets/images/readme/lab.png)
+
+The games page has a few of options for the user to choose from: Matching, Tic-Tac-Toe, and Operation. Click on the corresponding button to be directed to a specific game.
+
+![game options page](./client/src/assets/images/readme/games.png)
+
+![operation page](./client/src/assets/images/readme/op.png)
+
+![tic tac toe page](./client/src/assets/images/readme/ttt.png)
+
+![matching game page](./client/src/assets/images/readme/match.png)
+
+The resources page will show a randomly generated childhood illness from our database, as well as a randomly generated fun fact.
+
+![resources page](./client/src/assets/images/readme/resources.png)
+
+The messages page will display messages that the user previously sent to their physician. They can also send out a new message by filling out the form.
+
+![messaging page](./client/src/assets/images/readme/message.png)
+
+The user may log out at any time by visiting the navigation bar.
+
 ## Collaborators
 
-- [Rita Pecuch](https://github.com/rpecuch)
+- [Clarence Go](https://github.com/cmariego97)
 - [Nick Stevens](https://github.com/stezzzy)
 - [Kevin Crespo](https://github.com/kcrespo15)
 
 ## Credits
 
-This project was built using the following Node.js packages: dotenv, express, express-session, connect-session-sequelize, generate-unique-id, mysql2, party-js, path, and sequelize. 
+This provider login was built using the following Node.js packages: dotenv, express, express-session, connect-session-sequelize, generate-unique-id, mysql2, party-js, path, and sequelize. 
 
-The following third-party APIs were also utilized: Tailwind CSS, Bootstrap, Google Fonts, Moment.js.
+The patient login was built using the following Node.js packages: apollo-server-express, dotenv, express, graphql, jsonwebtoken, mongoose, apollo/client, emotion/react emotion/styled, fontsource/roboto, font awesome, material-ui, mui, jwt-decode, moment, react, react-dom react-external-link, react-scripts, and react-scroll.
+
+The following third-party APIs were also utilized in creating the provider login: Tailwind CSS, Bootstrap, Google Fonts, Moment.js.
 
 The [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions) website was used to build our database of childhood illness information.
 
@@ -126,8 +174,8 @@ The [National Geographic Kids](https://www.natgeokids.com/uk/discover/science/ge
 
   ## Questions
 
-  If you have any questions or would like to provide feedback, do not hesitate to contact any of the collaborators. 
-  - Clarence Go: cmarie.go97@gmail.com
+  For inquiries or to provide feedback, do not hesitate to contact any of the collaborators. 
   - Rita Pecuch: rpecuch@comcast.net
+  - Clarence Go: cmarie.go97@gmail.com
   - Nick Stevens: nickyapril123@gmail.com
   - Kevin Crespo: KevinCrespo15@gmail.com
