@@ -24,11 +24,11 @@
 
 The purpose of this application is to provide an electronic system to keep track of patient records in a healthcare environment.
 
-### Providers
+### Provider Login
 
 Like other electronic health record (EHR) systems, features include appointment scheduling, creating patient charts, writing medical record notes, logging vital signs, and logging vaccination records. What makes Kids-RX different is that it is specifically designed for use in pediatrics and includes features that were implemented with children in mind. Additional functionalities that we would like to add in the near future include increasing the number of different calendar views, implementing electronic prescriptions, and adding more editing abilities. We also plan on making the patient charts much more detailed.
 
-### Patients
+### Patient Login
 
 Like other EHR patient portals, features include viewing upcoming and past appointments, medications, vaccines, and vital signs. Patients can also send and recive messages from their physician. What makes Kids-RX different is that it is specifically designed for use in pediatrics and includes features that were implemented with children in mind, including games for them to play while in a waiting room. Additional functionalities that we would like to add in the near future include more games that are higher complexity, as well as a platform that accepts donations to a children's hospital.
 
@@ -59,41 +59,41 @@ This application was built in two weeks, with our development team spending one 
 
 To access this application, visit the following URL: [https://kids-rx-emr.herokuapp.com/](https://kids-rx-emr.herokuapp.com/). Browse the homepage for business information, or select one of the options in the navigation bar at the top of the page
 
-![homepage of application](./public/img/readme/homepage.png)
+![homepage of application](./images/provider/homepage.png)
 
  Select "Staff Login" to login as a provider, or the user may create a new account.
 
- ![create account page](./public/img/readme/createacc.png)
+ ![create account page](./images/provider/createacc.png)
 
- ![login page](./public/img/readme/login.png)
+ ![login page](./images/provider/login.png)
 
  Once the user is logged in, they will be taken to the dashboard. They may choose to view the schedule, view current patients, view the vaccination page, or view resources.
 
-![staff dashboard page](./public/img/readme/dash.png)
+![staff dashboard page](./images/provider/dash.png)
 
 The schedule page displays a list of appointments for the current day. The status may be changed when the patient arrives. To add a new appointment to the schedule, fill out the form at the top of the page.
 
-![schedule page](./public/img/readme/schedule.png)
+![schedule page](./images/provider/schedule.png)
 
 The patients page displays a list of the first 25 patients in the system alphabetically. To view a specific patient, use the search bar at the top of the page. 
 
-![list of patients](./public/img/readme/pt-list.png)
+![list of patients](./images/provider/pt-list.png)
 
 The following information is contained in each patient chart: basic information (name, date of birth, etc), allergies, medical history, medications, vaccinations, guardian information, recent vital signs, upcoming appointments, and medical reports. The user may add a new medication, vaccination, appointment, medical report, or set of vital signs using the corresponding button. On the patient's birthday, click the corresponding button for a special surprise! In the future, we would like to implement the ability for the user to be able to customize this birthday message.
 
-![patient chart](./public/img/readme/ptchart.png)
+![patient chart](./images/provider/ptchart.png)
 
 To add a new patient, click "Add a New Patient" to be directed to the correct page. Fill out the form to add a new patient chart..
 
-![form to add new patient](./public/img/readme/add-pt.png)
+![form to add new patient](./images/provider/add-pt.png)
 
 The vaccination page contains animations that can be shown to the patient while they receive their vaccination. In the future, we would like to implement the ability for the user to be able to choose animations that they would like to include. After administering the vaccination, click the button on the bottom of the page to log the information.
 
-![vaccinations page](./public/img/readme/vaccines.png)
+![vaccinations page](./images/provider/vaccines.png)
 
 The resources page contains information about common childhood illness, as well as some fun facts about the human body! Click on either of the buttons to generate a random informational card or fun fact.
 
-![resources page](./public/img/readme/resources.png)
+![resources page](./images/provider/resources.png)
 
 The user may view their account profile at any time by visiting the navigation bar.
 
@@ -105,45 +105,45 @@ To access this application, visit the following URL: [http://my-kids-rx.herokuap
 
 Select "Patient Login" to login as a patient, or the user may create a new account.
 
-![login page](./client/src/assets/images/readme/login.png)
+![login page](./images/patient/login.png)
 
-![create account page](./client/src/assets/images/readme/create.png)
+![create account page](./images/patient/create.png)
 
 Once the user is logged in they may choose from the following options: view profile, view medical information, view appointments, view imaging results, view lab results, play games, view resources, and send/view messages.
 
 The profile page will show account information and basic medical information, along with the options to change password and delete account. In order to carry out either of these options, the user must enter their current password correctly.
 
-![profile page](./client/src/assets/images/readme/profile.png)
+![profile page](./images/patient/profile.png)
 
 The appointments page shows upcoming appointments as well as reports from previous appointments.
 
-![appointments page](./client/src/assets/images/readme/appt.png)
+![appointments page](./images/patient/appt.png)
 
 The imaging results page shows imaging results that are on file with their physician.
 
-![imaging results page](./client/src/assets/images/readme/imaging.png)
+![imaging results page](./images/patient/imaging.png)
 
 The lab results page shows lab results that are on file with their physician.
 
-![lab results page](./client/src/assets/images/readme/lab.png)
+![lab results page](./images/patient/lab.png)
 
 The games page has a few of options for the user to choose from: Matching, Tic-Tac-Toe, and Operation. Click on the corresponding button to be directed to a specific game.
 
-![game options page](./client/src/assets/images/readme/games.png)
+![game options page](./images/patient/games.png)
 
-![operation page](./client/src/assets/images/readme/op.png)
+![operation page](./images/patient/op.png)
 
-![tic tac toe page](./client/src/assets/images/readme/ttt.png)
+![tic tac toe page](./images/patient/ttt.png)
 
-![matching game page](./client/src/assets/images/readme/match.png)
+![matching game page](./images/patient/match.png)
 
 The resources page will show a randomly generated childhood illness from our database, as well as a randomly generated fun fact.
 
-![resources page](./client/src/assets/images/readme/resources.png)
+![resources page](./images/patient/resources.png)
 
 The messages page will display messages that the user previously sent to their physician. They can also send out a new message by filling out the form.
 
-![messaging page](./client/src/assets/images/readme/message.png)
+![messaging page](./images/patient/message.png)
 
 The user may log out at any time by visiting the navigation bar.
 
