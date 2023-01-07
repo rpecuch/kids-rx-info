@@ -108,11 +108,11 @@ To view this application, visit the following URL: [https://kidsrx-patient.herok
 Browse the homepage for business information, or select one of the options in the navigation bar at the top of the page.
 
 Select "Patient Login" to login as a patient, or the user may create a new account. Those interested in viewing sample patient data may use one of the following logins:
-- Username:
-- Username:
-- Username:
-- Username:
-- Username:
+- Username: asmith@test.com, Password: password12345
+- Username: mgreen@test.com, Password: password12345
+- Username: jdoe@test.com, Password: password12345
+- Username: awallace@test.com, Password: password12345
+- Username: wwatson@test.com, Password: password12345
 
 ![login page](./images/patient/login.png)
 
