@@ -24,8 +24,6 @@
 
 The purpose of this application is to provide an electronic system to keep track of patient records in a healthcare environment.
 
-Note: this application was previously deployed on Heroku and will be re-deployed shortly due to changes in Heroku product plans. Those interested may contact rpecuch@comcast.net or kidsrxehr@gmail.com for a live demonstration.
-
 ### Provider Login
 
 Like other electronic health record (EHR) systems, features include appointment scheduling, creating patient charts, writing medical record notes, logging vital signs, and logging vaccination records. What makes Kids-RX different is that it is specifically designed for use in pediatrics and includes features that were implemented with children in mind. Additional functionalities that we would like to add in the near future include increasing the number of different calendar views, implementing electronic prescriptions, and adding more editing abilities. We also plan on making the patient charts much more detailed.
@@ -58,6 +56,8 @@ This application was built in two weeks, with our development team spending one 
 ## Usage
 
 ### Providers
+
+To view this application, visit the following URL: [https://kidsrx-provider.herokuapp.com/](https://kidsrx-provider.herokuapp.com/).
 
 Browse the homepage for business information, or select one of the options in the navigation bar at the top of the page
 
@@ -103,9 +103,16 @@ The user may log out at any time by visiting the navigation bar.
 
 ### Patients
 
+To view this application, visit the following URL: [https://kidsrx-patient.herokuapp.com/](https://kidsrx-patient.herokuapp.com/).
+
 Browse the homepage for business information, or select one of the options in the navigation bar at the top of the page.
 
-Select "Patient Login" to login as a patient, or the user may create a new account.
+Select "Patient Login" to login as a patient, or the user may create a new account. Those interested in viewing sample patient data may use one of the following logins:
+- Username:
+- Username:
+- Username:
+- Username:
+- Username:
 
 ![login page](./images/patient/login.png)
 
