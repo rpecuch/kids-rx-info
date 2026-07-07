@@ -39,6 +39,7 @@ This application was built in two weeks, with our development team spending one 
 ## Table of Contents
 
   - [Installation](#installation)
+  - [Code](#code)
   - [Usage](#usage)
     - [Providers](#providers)
     - [Patients](#patients)
@@ -53,11 +54,15 @@ This application was built in two weeks, with our development team spending one 
 
   N/A
 
+## Code
+
+Application code may be found here: [https://github.com/rpecuch/kids-rx-ehr].
+
 ## Usage
 
 ### Providers
 
-To view this application, visit the following URL: [https://kids-rx-ehr.onrender.com/).
+To view this application, visit the following URL: [https://kids-rx-ehr.onrender.com/].
 
 Browse the homepage for business information, or select one of the options in the navigation bar at the top of the page
 
@@ -103,7 +108,7 @@ The user may log out at any time by visiting the navigation bar.
 
 ### Patients
 
-To view this application, visit the following URL: [https://kids-rx-ehr.onrender.com/).
+To view this application, visit the following URL: [https://kids-rx-ehr.onrender.com/].
 
 Browse the homepage for business information, or select one of the options in the navigation bar at the top of the page.
 
