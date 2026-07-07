@@ -34,7 +34,7 @@ Like other EHR patient portals, features include viewing upcoming and past appoi
 
 ### Future Development
 
-This application was built in two weeks, with our development team spending one week on the provider login and one week on the patient login. Because each login was built to meet the requirements of a different class project, different technologies were used in each. In the coming weeks a comprehensive application will be set up that combines both the provider and patient login.
+This application was built in two weeks, with our development team spending one week on the provider login and one week on the patient login. It is not optimized for display on all devices. No future development is intended beyond adjusting to updates of dependencies.
 
 ## Table of Contents
 
@@ -57,7 +57,7 @@ This application was built in two weeks, with our development team spending one 
 
 ### Providers
 
-To view this application, visit the following URL: [https://kidsrx-provider.herokuapp.com/](https://kidsrx-provider.herokuapp.com/).
+To view this application, visit the following URL: [https://kids-rx-ehr.onrender.com/).
 
 Browse the homepage for business information, or select one of the options in the navigation bar at the top of the page
 
@@ -103,7 +103,7 @@ The user may log out at any time by visiting the navigation bar.
 
 ### Patients
 
-To view this application, visit the following URL: [https://kidsrx-patient.herokuapp.com/](https://kidsrx-patient.herokuapp.com/).
+To view this application, visit the following URL: [https://kids-rx-ehr.onrender.com/).
 
 Browse the homepage for business information, or select one of the options in the navigation bar at the top of the page.
 
